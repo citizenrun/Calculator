@@ -7,6 +7,17 @@
     <groupId>java</groupId>
     <artifactId>Calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.2</version>
+        </dependency>
+        <dependency>
+            <groupId></groupId>
+            <artifactId></artifactId>
+            <version></version>
+        </dependency></dependencies>
 
 
 </project>
