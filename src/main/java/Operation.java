@@ -1,16 +1,30 @@
-public class Operation {
+import java.util.ArrayList;
 
-    public static double sum (double a, double b){
-        return a + b;
+public final class Operation {
+
+    public static double sum (ArrayList<Double> values){
+        double result = 0;
+        for(Double d : values)
+            result += d;
+        return result;
     }
 
-    public static double sub(double a, double b){
-        return a - b;
+    public static double substraction(ArrayList<Double> values){
+        for (int i = 0; i<values.size(); ++i){
+            double result = values.get(i)/values.get(i+1);
+        }
+return 0;
     }
-    public static double mult(double a, double b){
-        return a * b;
+    public static double multiplication(ArrayList<Double> values){
+        double result = 1;
+        for(Double d : values)
+            result *= d;
+        return result;
     }
-    public static double div(double a, double b){
-        return a / b;
+    public static double division(ArrayList<Double> values){
+        double result = 1;
+        for(Double d : values)
+            result *= d;
+        return result;
     }
 }
